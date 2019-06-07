@@ -3,7 +3,7 @@ import random
 from SoftIOC import *
 
 io = IO()
-ioc = SoftIOC('test')
+ioc = SoftIOCSim('test')
 
 def addOne(self, x):
     x = x + 1

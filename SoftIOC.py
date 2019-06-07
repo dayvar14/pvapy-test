@@ -2,7 +2,7 @@ from pvaccess import pvaccess as pva
 from time import sleep
 
 
-class SoftIOC(object):
+class SoftIOCSim(object):
     name = ''
     struct = {}
     inputs = []
