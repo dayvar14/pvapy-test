@@ -1,4 +1,4 @@
-from pvaccess import pvaccess as pva
+import pvaccess as pva
 from time import sleep
 
 
@@ -19,7 +19,6 @@ class SoftIOCSim(object):
 
     def start(self):
         self.server = pva.PvaServer(self.name, pva.PvObject(self.struct))
-
 
     def run(self):
         while True:
