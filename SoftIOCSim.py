@@ -21,7 +21,6 @@ class SoftIOCSim(object):
         self.server = pva.PvaServer(self.name, pva.PvObject(self.struct))
 
     def run(self):
-        while True:
             values = {}
             for input in self.inputs:
                 input.run()
