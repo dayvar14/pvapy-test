@@ -1,9 +1,9 @@
 import pvaccess
 import random
-from SoftIOC import *
+from SoftIOCSim import *
 
 io = IO()
-ioc = SoftIOCSim('test')
+ioc = SoftIOC('test')
 
 def addOne(self, x):
     x = x + 1
